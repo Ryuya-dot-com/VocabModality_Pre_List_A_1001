@@ -15,7 +15,6 @@ function startTest() {
 
 // 音声ファイルのリスト（audioフォルダ内に配置）
 const audioFiles = [
-    "audio/shove.mp3",
     "audio/acute.mp3",
     "audio/arithmetic.mp3",
     "audio/assembly.mp3",
@@ -51,6 +50,7 @@ const audioFiles = [
     "audio/sacred.mp3",
     "audio/salute.mp3",
     "audio/savage.mp3",
+    "audio/shove.mp3",
     "audio/simplicity.mp3",
     "audio/slippery.mp3",
     "audio/soothe.mp3",
