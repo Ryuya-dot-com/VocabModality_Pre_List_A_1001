@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>英語リスニングテスト</title>
+</head>
+<body>
+    <h1>リスニング語彙テスト</h1>
+
+    <!-- テストの説明 -->
+    <p>このリスニング語彙テストでは、英単語の音声を聞き、その意味を日本語で回答します。各問題では、音声を2回まで再生できます。全部で50問あります。回答はGoogle Formで実施します。</p>
+
+    <form id="student-form">
+        <label for="student-id">学籍番号：</label>
+        <input type="text" id="student-id" required><br><br>
+
+        <label for="class-select">クラスを選択してください：</label>
+        <select id="class-select" required>
+            <option value="">選択してください</option>
+            <option value="CB14224">Monday 4th period (CB14224)</option>
+            <option value="CB23230">Tuesday 3rd period (CB23230)</option>
+            <option value="CB32220">Wednesday 2nd period (CB32220)</option>
+        </select><br><br>
+
+        <button type="button" onclick="startTest()">テスト開始</button>
+    </form>
+
+    <div id="test-section" style="display:none;">
+        <!-- テストの内容がここに生成されます -->
+    </div>
+
+    <!-- スクリプトの読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
